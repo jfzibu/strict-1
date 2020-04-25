@@ -1,0 +1,412 @@
+                        * {
+                            padding: 0px;
+                            margin: 0px;
+                        }
+                        
+                        .body {
+                            font-family: 'Roboto';
+                            font-size: 14px;
+                            font-weight: 24px;
+                            width: 1140 px;
+                            ;
+                        }
+                        
+                        h1,
+                        h2,
+                        h3,
+                        h4,
+                        h5,
+                        h6 {
+                            font-family: sans-serif;
+                        }
+                        
+                        a {
+                            text-decoration: none;
+                        }
+                        
+                        a,
+                        a:hover {
+                            text-decoration: none;
+                        }
+                        
+                        .contanier {
+                            width: 1140px;
+                            margin: 0px auto;
+                        }
+                        
+                        .row {
+                            width: 100%;
+                            float: left;
+                        }
+                        /*header section start*/
+                        
+                        .header-section {
+                            width: 100%;
+                            float: left;
+                            background-color: f6f9f9;
+                            padding: 15px 0px;
+                        }
+                        
+                        .logo {
+                            width: 100%;
+                            float: left;
+                            padding: 20px: 0px;
+                        }
+                        
+                        .container {
+                            width: 1140px;
+                            margin: 0px auto;
+                        }
+                        
+                        .col-md-6 {
+                            width: 50%;
+                            float: left;
+                        }
+                        
+                        .col-md-3 {
+                            width: 25%;
+                            float: left;
+                        }
+                        
+                        .col-md-4 {
+                            width: 33.33%;
+                            float: left;
+                        }
+                        
+                        .col-md-12 {
+                            width: 100%;
+                            float: left;
+                        }
+                        /*header section start*/
+                        
+                        .banner-section {
+                            width: 100%;
+                            float: left;
+                            background: url(../images/banner2.png) center top no-repeat;
+                            background-size: cover;
+                            padding: 30px 0px;
+                            text-align: center;
+                        }
+                        
+                        .banner-inner {
+                            width: 100%;
+                            float: left;
+                            padding: 90px 0px 90px;
+                        }
+                        
+                        .banner-inner h1 {
+                            font-size: 65px;
+                            line-height: 60px;
+                            font-weight: 700;
+                            margin-bottom: 15px;
+                            color: #fff;
+                        }
+                        
+                        .divider {
+                            width: 40%;
+                            height: 2px;
+                            background-color: #15a4fa;
+                            margin: 0px auto;
+                            padding: 0px 0px;
+                        }
+                        
+                        .banner-inner p {
+                            font-size: 16px;
+                            line-height: 26px;
+                            font-weight: normal;
+                            margin-bottom: 60px;
+                            color: #fff;
+                            padding: 20px 0px;
+                        }
+                        
+                        .banner-inner .btn {
+                            padding: 12px 35px;
+                            background: transparent;
+                            color: white;
+                            border: 1px solid #0099ff;
+                            border-radius: 2px;
+                            font-size: 12px;
+                            font-weight: 600;
+                        }
+                        
+                        .banner-inner .btn:hover {
+                            background: #0099ff;
+                            color: #fff;
+                            border: 1px solid #0099ff;
+                            transition: 1s ease-in-out;
+                        }
+                        
+                        .arrow {
+                            width: 100%;
+                            float: left;
+                            margin-top: 80px;
+                            text-align: center;
+                            position: relative;
+                        }
+                        
+                        .arrow img {
+                            margin-top: 40px;
+                            position: absolute;
+                        }
+                        /*header section END*/
+                        /*simple section start*/
+                        
+                        .simple-section {
+                            width: 100%;
+                            float: left;
+                            background: #f6f9f9;
+                            background-size: cover;
+                            padding: 60px 0px;
+                        }
+                        
+                        .simple-inner h1 {
+                            font-size: 36px;
+                            line-height: 60px;
+                            font-weight: 700;
+                            margin-bottom: 10px;
+                            color: #000;
+                            text-align: center;
+                        }
+                        
+                        .simple-inner p {
+                            font-size: 18px;
+                            line-height: 28px;
+                            font-weight: 600;
+                            margin-bottom: 15px;
+                            color: #999999;
+                            text-align: center;
+                        }
+                        /*simple section end*/
+                        /*feature section start*/
+                        
+                        .feature-section {
+                            width: 100%;
+                            float: left;
+                            background: #fff;
+                            padding: 60px 0px;
+                            display: inline-block;
+                        }
+                        
+                        .feature-inner {
+                            width: 98%;
+                            padding: 10px 20px;
+                            float: left;
+                            text-align: center;
+                        }
+                        
+                        .feature-inner img {
+                            display: inline-block;
+                            margin-bottom: 20px;
+                            place-items: center;
+                        }
+                        
+                        .feature-inner h4 {
+                            font-size: 22px;
+                            line-height: 30px;
+                            font-weight: 400;
+                            color: black;
+                            margin-bottom: 10px;
+                        }
+                        
+                        .feature-inner p {
+                            font-size: 14px;
+                            line-height: 24px;
+                            font-weight: 400;
+                            color: #999999;
+                        }
+                        /*feature section end*/
+                        /*portfoilo-section  start*/
+                        
+                        .portfolio-section {
+                            width: 100%;
+                            float: left;
+                            background-color: #f6f9f9;
+                            padding: 80px 0px;
+                        }
+                        
+                        .portfolio-title {
+                            width: 100%;
+                            float: left;
+                            text-align: center;
+                            padding-bottom: 80px;
+                        }
+                        
+                        .portfolio-title h1 {
+                            font-size: 45px;
+                            line-height: 55px;
+                            font-weight: 700;
+                            margin-bottom: 10px;
+                            color: #2d3950;
+                        }
+                        
+                        .portfolio-title p {
+                            font-size: 15px;
+                            line-height: 24px;
+                            font-weight: 400;
+                            color: #a4a5a5;
+                        }
+                        
+                        .portfolio-inner {
+                            width: 100%;
+                            float: left;
+                            position: relative;
+                            margin-bottom: 12px;
+                        }
+                        
+                        .port-hover {
+                            width: 95%;
+                            height: 98%;
+                            position: absolute;
+                            left: 0;
+                            top: 0;
+                            background-color: rgba(30, 156, 235, 0.6);
+                            display: none;
+                            transition: 1sec;
+                        }
+                        
+                        .portfolio-inner img {
+                            width: 100%;
+                            float: left;
+                        }
+                        
+                        .port-hover ul {
+                            position: absolute;
+                            width: 100%;
+                            top: 38%;
+                            left: 30%;
+                        }
+                        
+                        .port-hover ul li {
+                            list-style: none;
+                            display: inline-block;
+                            margin: 0px 5px;
+                        }
+                        
+                        .port-hover ul li a {
+                            margin: 0px 5px;
+                        }
+                        
+                        .portfolio-inner:hover .port-hover {
+                            display: block;
+                            transition: 1sec;
+                        }
+                        
+                        .port-hover ul li a:hover {}
+                        /*portfoilo-section   end*/
+                        /*contact-section   start*/
+                        
+                        .contact-section {
+                            width: 100%;
+                            float: left;
+                            background: url(../images/BG.png) center top no-repeat;
+                            background-size: cover;
+                            padding: 80px 0px;
+                        }
+                        
+                        .contact-title {
+                            width: 100%;
+                            float: left;
+                            text-align: center;
+                            padding-bottom: 80px;
+                        }
+                        
+                        .contact-title h1 {
+                            font-size: 45px;
+                            line-height: 55px;
+                            font-weight: 500;
+                            margin-bottom: 15px;
+                            color: #fff;
+                        }
+                        
+                        .contact-title p {
+                            font-size: 15px;
+                            line-height: 24px;
+                            font-weight: 400;
+                            margin-bottom: 15px;
+                            color: #fff;
+                        }
+                        
+                        .main-form {
+                            width: 90%;
+                            float: left;
+                            padding: 0px 20px;
+                        }
+                        
+                        .form-group {
+                            width: 100%;
+                            float: left;
+                        }
+                        
+                        .form-group span {
+                            color: #fff;
+                            font-size: 14px;
+                        }
+                        
+                        .form-control {
+                            width: 98%;
+                            padding: 10px;
+                            background: transparent;
+                            border: 1px solid #a7a8af;
+                            margin: 10px 0px;
+                            border-radius: 5px;
+                        }
+                        
+                        .send .btn {
+                            padding: 12px 35px;
+                            background: transparent;
+                            color: white;
+                            border: 1px solid #0099ff;
+                            border-radius: 2px;
+                            font-size: 12px;
+                            font-weight: 600;
+                        }
+                        
+                        .send .btn:hover {
+                            background: #0099ff;
+                            color: #fff;
+                            border: 1px solid #0099ff;
+                            transition: 1s ease-in-out;
+                        }
+                        
+                        .send {
+                            width: 100%;
+                            float: left;
+                            text-align: right;
+                        }
+                        /*contact-section   end*/
+                        /*footer-section   start*/
+                        
+                        .footer-section {
+                            width: 100%;
+                            float: left;
+                            background: #fff;
+                            padding: 20px 0px;
+                        }
+                        
+                        .footer-section p {
+                            font-size: 12px;
+                            color: #a7a8a8;
+                        }
+                        
+                        .footer-section i {
+                            color: #0099ff;
+                            font-size: 14px;
+                            ;
+                        }
+                        /*footer-section   end*/
+                        
+                        .isStuck {
+                            left: 0px;
+                            width: 100%;
+                            background: #F5F7FA;
+                        }
+                        /* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+                        /* Special class on .container surrounding .navbar, used for positioning it into place. */
+                        
+                        .navbar-wrapper {
+                            width: 100%;
+                            margin-top: 0px;
+                            position: relative;
+                            z-index: 15;
+                        }
